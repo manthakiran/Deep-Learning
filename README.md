@@ -45,12 +45,31 @@ I built this to practice image classification with a Convolutional Neural Networ
 
 ## Results
 
-- Training accuracy: [add %]
-- Testing accuracy: [add %]
+- Training accuracy: **97.7%** (after 10 epochs)
+- Final training loss: **0.0955**
+- Testing accuracy: [add % here, see note below]
+
+### Training progress
+
+The model started at around 50% accuracy, which is basically a random guess between two brands. The loss dropped from 52.4 to 0.09 over 10 epochs, and the accuracy kept climbing to 97.7%.
+
+| Epoch | Accuracy | Loss |
+|-------|----------|--------|
+| 1     | 52.9%    | 52.44  |
+| 5     | 71.3%    | 0.498  |
+| 8     | 97.7%    | 0.194  |
+| 10    | 97.7%    | 0.096  |
+
+### Sample prediction
+
+I tested the model with a new shoe photo that was not in the dataset. The image is converted to grayscale and resized to the same size used in training before it goes into the model.
 
 
+The model gave this output:
 
----
+    [[0.0055, 0.9945]]
+
+This means the model is about 99.4% sure the shoe belongs to class 1, and only about 0.5% sure about class 0.
 
 ## How to run it
 
