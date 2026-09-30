@@ -67,6 +67,8 @@ I tested the model with a new shoe photo that was not in the dataset. The image 
 <img width="595" height="675" alt="image" src="https://github.com/user-attachments/assets/d5e0e44a-810e-411e-aa04-7fa02621c70c" />
 
 
+
+
 The model gave this output:
 
     [[0.0055, 0.9945]]
