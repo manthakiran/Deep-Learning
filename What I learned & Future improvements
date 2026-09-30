@@ -1,0 +1,19 @@
+Open `Nike_vs_Adidas.ipynb` in Jupyter Notebook or Google Colab and run the cells one by one.
+
+---
+
+## What I learned
+
+- How a CNN reads and understands images
+- How to prepare image data for training
+- How to check if a model is overfitting
+
+## Future improvements
+
+- Add more images to make the model better
+- Try transfer learning (like VGG16 or MobileNet)
+- Add more brands
+
+---
+
+Made by [Kiran](https://github.com/manthakiran)
