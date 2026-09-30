@@ -64,7 +64,7 @@ The model started at around 50% accuracy, which is basically a random guess betw
 
 I tested the model with a new shoe photo that was not in the dataset. The image is converted to grayscale and resized to the same size used in training before it goes into the model.
 
-![Uploading image.png…]()
+<img width="595" height="675" alt="image" src="https://github.com/user-attachments/assets/d5e0e44a-810e-411e-aa04-7fa02621c70c" />
 
 
 The model gave this output:
