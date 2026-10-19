@@ -73,7 +73,7 @@ The model gave this output:
 
     [[0.0055, 0.9945]]
 
-This means the model is about 99.4% sure the shoe belongs to class 1, and only about 0.5% sure about class 0.
+This means the model is about 99.4% sure the shoe belongs to class 1(Nike), and only about 0.5% sure about class 0(Adidas).
 
 ## How to run it
 
